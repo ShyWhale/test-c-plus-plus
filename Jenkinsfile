@@ -9,7 +9,7 @@ pipeline {
     }
     stage('build') {
       steps {
-        sh 'g++ main.py -o main'
+        sh 'g++ main.cpp -o main'
       }
     }
     stage('output'){

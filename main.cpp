@@ -13,6 +13,8 @@ int main(){
 
   cout <<"This is the address of a: "<< b << endl;
   cout <<"This is the value of b: "<< *b << endl;
+  
+  cout <<"Testing << endl;
 
   return 0;
 }
